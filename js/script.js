@@ -24,3 +24,13 @@ Number.isFinite(variable)// check the validity of the number make sure its not i
 let bigOne = 1n;
 typeof(bigOne); 
 //big int stores big numbers... */
+
+/*var num1 = 1; //has scope rules
+let num2 = 2; // let can only be declared once
+const num3 = 3; //can not change?*/
+
+//Hoisting brings an oject to the top of the scope
+//== compares values === compares types
+
+
+
