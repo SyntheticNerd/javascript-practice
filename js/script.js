@@ -1,14 +1,13 @@
-//debugger; good for stepping through logic
-console.log("Andrew Schroepfer");
-console.log("Apple Pie");
+const word = "Supercalifragilisticexpialidocious";
+console.log(word);
+console.log(word.length);//Length of word
 
-/* multi line comment
-multi line comment
-multi line comment
-multi line comment*/
+const number = 42;
+console.log(number);//regular integer
 
-//white space is not meaning ful in JS
-//naming anything JS is case sensitive
-//TODO: Make notes comments can be used by other programs like CANBAN and github
-//Semi-Colons are optional?
-let element = document.getElementById('hello');
+const bigNumber = 42n;//big int
+console.log(bigNumber);
+console.log(typeof bigNumber);
+
+const alsoHuge = BigInt(42);// test console logs as "42n"
+console.log(alsoHuge);
