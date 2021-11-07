@@ -30,7 +30,7 @@ let num2 = 2; // let can only be declared once
 const num3 = 3; //can not change?*/
 
 //Hoisting brings an oject to the top of the scope
-//== compares values === compares typestestestest
+//== compares values === compares type
 
 
 
