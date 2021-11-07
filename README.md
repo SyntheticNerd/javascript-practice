@@ -27,3 +27,7 @@ git pull //to pull changes from the main branch
 git branch // gets all the branches in your local
 
 git branch -m <old> <new> //change branch names
+
+git status
+git remote -v
+//dont forget to add files before trying to commit changes
