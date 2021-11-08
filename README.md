@@ -1,5 +1,4 @@
 This is for the Bitwise Intro to JS bootcamp
-
 Git Tips
 check your branch in the bottom left of the
 git switch branch-name //switch branches
