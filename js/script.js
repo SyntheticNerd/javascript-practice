@@ -31,6 +31,3 @@ const num3 = 3; //can not change?*/
 
 //Hoisting brings an oject to the top of the scope
 //== compares values === compares type
-
-
-
