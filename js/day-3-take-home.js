@@ -67,3 +67,7 @@ function doFunction() {
     }
     //created a confirm funnction to call in the askbday function
 }
+
+// if(birthday.toString() === "Invalid Date")
+//if(isNaN(Date.parse(birthday))
+//parse the birthday and it should be a noumber if it doesnt it will return as NaN wich is falsy so if(parse(birthday))

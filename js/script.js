@@ -80,3 +80,46 @@ const num3 = 3; //can not change?*/
 // console.log(formatted_date)
 // console.log(current_datetime.toDateString("yyy-mm-dd hh:mm:ss"));
 //info on date support: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+
+//Day 4 control Flow
+
+//if(){}
+//else if(){}
+//else(){}
+
+//&& and, || or
+//   var === condition /*truth/falsy*/ ? "exprIfTrue" : "exprIfFalse" //turnary operator used for simple if else
+//  switch (expression.valueinform) { //switch statement
+//     case "casename": //expression
+//         break;//have to have a break statement to exit the switch statement
+//     case "casediferent": //expression
+//         break;
+//     default :
+//         break;
+// }
+
+//Building objects
+// let npc = {
+//     thing1: "Thing",
+//     thing2: "other thing",
+// }
+
+
+// let x = parseInt(prompt("Enter another number."));
+// while (!x) { //anything other than a number returns NaN which is falsy
+//     x = +(prompt("Enter a actual number please."));
+// }
+
+// let y = parseInt(prompt("Enter another number."));
+// while (!y) {
+//     y = +(prompt("Enter a actual number please."));
+// }
+
+// (x > y) ? alert(x): alert(y);
+
+
+//   if ( x > y) {
+//   alert(x)
+// } else {
+//   alert (y)
+// }

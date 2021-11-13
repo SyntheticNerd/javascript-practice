@@ -29,4 +29,4 @@ git branch -m <old> <new> //change branch names
 
 git status
 git remote -v
-//dont forget to add files before trying to commit changes
+dont forget to add files before trying to commit changes
