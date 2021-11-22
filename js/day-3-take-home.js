@@ -7,7 +7,7 @@
 // Ask for the user's birthday
 // Ask the user to confirm their birthday input
 // Alert the user's birthday
-function doFunction() {
+function day3() {
     let firstname = prompt("What is your first name?");
     let lastname = prompt("What is your last name?");
 

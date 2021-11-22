@@ -5,15 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Practice</title>
+    <title>Bitwise JavaScript</title>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+    <div class="grid-box">
+        <div class="grid-element day1"></div>
+        <div class="grid-element day2">
+            <h1>DAY 2</h1><br />
+            <h2>Mad Lib</h2>
+            <p class="madtext" id="madlib"></p>
+        </div>
+        <div class="grid-element day3">
+            <h1>DAY 3</h1><br />
+            <h2>Who are you?</h2>
+            <button class="custom-btn btn-12" onclick="day3();"><span>Click Me!!!</span><span>Get
+                    Prompted!!!</span></button>
+        </div>
+        <div class="grid-element day4">
+            <h1>DAY 4</h1><br />
+            <h2>Which Number is Greater</h2>
+            <button class="custom-btn btn-1" onclick="day4()">Compare Numbers</button>
+        </div>
+        <div class="grid-element day5">
+            <h1>DAY 5</h1><br />
+            <div class="form-1">
+                <div id="textStuff1" class="textStuff">
+                    <div class="form">
+                        <input id="writeMe" type="password" name="name" autocomplete="off" required />
+                        <label for="name" class="label-name">
+                            <p class="content-name">Create Password</p>
+                            <!-- allow for animation in the label itself-->
+                        </label>
+                    </div>
+                    <p id="req1">Start with a letter.</p>
+                    <p id="req2">6-20 Characters long.</p>
+                    <p id="warning"></p>
+                </div>
+                <button class="custom-btn btn-7" onclick="enterPW()"><span>Submit</span></button>
+            </div>
+
+        </div>
+        <div class="grid-element day6">
+            <h1>DAY 6</h1><br />
+            <p id="catFact"></p>
+            <button class="custom-btn btn-6" onclick="fetchCatFact()"><span>Generate Cat Fact</span></button>
+        </div>
+        <div class="grid-element day7"></div>
+        <div class="grid-element day8"></div>
+        <div class="grid-element day9"></div>
+        <div class="grid-element day10"></div>
+        <div class="grid-element day11"></div>
+        <div class="grid-element day12"></div>
+    </div>
     <!-- <input id="clickMe" type="button" value="Press Me to be Prompted" onclick="doFunction();" /> -->
     <script src="./js/script.js"></script>
+    <script src="./js/day-2-take-home.js"></script>
     <!-- <script src="./js/day-3-challenge.js"></script> -->
-    <!-- <script src="./js/day-3-take-home.js"></script> -->
+    <script src="./js/day-3-take-home.js"></script>
+    <script src="./js/day-4-take-home.js"></script>
+    <script src="./js/day-5-take-home.js"></script>
+    <script src="./js/day-6-take-home.js"></script>
 </body>
 
 
